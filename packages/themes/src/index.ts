@@ -1,5 +1,5 @@
-function sum(a, b) {
-    return a + b;
+function sum(a: number, b: number) {
+  return a + b;
 }
 //commonJS기반
 // modules.exports = {
@@ -8,5 +8,5 @@ function sum(a, b) {
 
 //esmodule기반 ㅞ
 export default {
-    sum
+  sum,
 };
