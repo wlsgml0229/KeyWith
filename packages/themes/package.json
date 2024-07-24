@@ -1,9 +1,10 @@
 {
   "name": "@gongmo/themes",
   "version": "0.0.1",
-  "type": "module", 
+  "type": "module",
   "scripts": {
-     "build:js": "esbuild src/index.js --minify --format=cjs --bundle --outfile=dist/index.js"
+    "build": "npm run build:js",
+    "build:js": "node build.js"
   },
   "devDependencies": {
     "esbuild": "^0.16.17"
