@@ -79,11 +79,11 @@ const generateThemeCssClasses = () => {
             )}`;
 
             const styleProperties = Object.entries(subValue)
-              .map(([styleKey, styleValue]) => {
-                `${toCssCasting(styleKey)}: ${styleValue};`;
-              })
+              .map(
+                ([styleKey, styleValue]) =>
+                  `${toCssCasting(styleKey)}: ${styleValue};`
+              )
               .join("\n");
-
             return `${className} {\n${styleProperties}\n}`;
           })
           .join("\n")
