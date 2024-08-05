@@ -1,0 +1,14 @@
+{
+  "name": "@gongmo/esbuild-config",
+  "packageManager": "yarn@4.4.0",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "echo \"Tada!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "esbuild": "0.16.17"
+  }
+}
