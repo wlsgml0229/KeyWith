@@ -5,6 +5,7 @@ import { vanillaExtractPlugin } from "@vanilla-extract/esbuild-plugin";
 const config = {
   plugins: [vanillaExtractPlugin()],
 };
+
 run({
   config,
   pkg,

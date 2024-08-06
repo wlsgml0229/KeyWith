@@ -1,8 +1,8 @@
 export const green = {
-  1: "E6FAEF",
-  2: "91F7D3",
-  3: "00BC78",
-  4: "00B372",
+  1: "#E6FAEF",
+  2: "#91F7D3",
+  3: "#00BC78",
+  4: "#00B372",
 };
 
 export const gray = {

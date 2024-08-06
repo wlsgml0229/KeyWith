@@ -28,13 +28,13 @@ const generateThemeCssVariables = () => {
                 .map(
                   ([subKey, subValue]) =>
                     `--${toCssCasting(mainKey)}-${toCssCasting(
-                      subKey
-                    )}: ${subValue};`
+                      subKey,
+                    )}: ${subValue};`,
                 )
-                .join("\n")
+                .join("\n"),
             )
             .join("\n");
-
+          console.log(selector, cssVariables);
           return cssString.push(`${selector} {\n${cssVariables}\n}`);
         }
       });
@@ -49,9 +49,9 @@ const generateThemeCssVariables = () => {
         Object.entries(mainValue)
           .map(
             ([subKey, subValue]) =>
-              `--${toCssCasting(mainKey)}-${toCssCasting(subKey)}: ${subValue};`
+              `--${toCssCasting(mainKey)}-${toCssCasting(subKey)}: ${subValue};`,
           )
-          .join("\n")
+          .join("\n"),
       )
       .join("\n");
 
@@ -75,18 +75,18 @@ const generateThemeCssClasses = () => {
         Object.entries(mainValue)
           .map(([subKey, subValue]) => {
             const className = `.${toCssCasting(mainKey)}-${toCssCasting(
-              subKey
+              subKey,
             )}`;
 
             const styleProperties = Object.entries(subValue)
               .map(
                 ([styleKey, styleValue]) =>
-                  `${toCssCasting(styleKey)}: ${styleValue};`
+                  `${toCssCasting(styleKey)}: ${styleValue};`,
               )
               .join("\n");
             return `${className} {\n${styleProperties}\n}`;
           })
-          .join("\n")
+          .join("\n"),
       )
       .join("\n");
 
