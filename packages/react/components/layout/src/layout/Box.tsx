@@ -20,8 +20,8 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
         props.className,
       ]),
       style: {
-        color: vars.colors.$static.light?.[color]?.[7] ?? color,
-        background: vars.colors.$static.light?.[background]?.[1] ?? color,
+        color: vars.colors.$scale?.[color]?.[1] ?? color,
+        background: vars.colors.$scale?.[background]?.[1] ?? color,
         ...props.style,
       },
     },
