@@ -1,2 +1,3 @@
 export { Box } from "./Box";
-export type { BoxProps } from "./types";
+export { Flex } from "./Flex";
+export type { BoxProps, FlexProps } from "./types";
