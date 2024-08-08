@@ -14,5 +14,7 @@ export const BoxStory = {
   args: {
     as: "button",
     padding: "5",
+    boxShadow: "button",
+    borderRadius: "md",
   },
 };
