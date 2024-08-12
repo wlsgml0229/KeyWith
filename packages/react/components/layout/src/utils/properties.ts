@@ -9,6 +9,6 @@ export const extractSprinkleProps = <T extends Object>(
       result[key] = props[key];
     }
   });
-
+  console.log("result", result);
   return result;
 };

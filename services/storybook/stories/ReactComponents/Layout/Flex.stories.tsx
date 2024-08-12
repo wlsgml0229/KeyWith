@@ -1,5 +1,6 @@
 import "@gongmo/react-components-layout/style.css";
 import { Flex as _Flex } from "@gongmo/react-components-layout";
+import React from "react";
 
 export default {
   title: "React Components/Layout/Flex",
@@ -14,8 +15,8 @@ export const FlexStory = {
   args: {
     as: "div",
     padding: "5",
-    background: "pink",
-    boxShadow: "xl",
+    background: "green",
+    boxShadow: "button",
     borderRadius: "md",
     justify: "space-between",
     style: {
