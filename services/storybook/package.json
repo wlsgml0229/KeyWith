@@ -3,6 +3,7 @@
   "packageManager": "yarn@4.4.0",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
+    "@gongmo/react-components-button": "workspace:^",
     "@gongmo/react-components-layout": "workspace:^",
     "@gongmo/themes": "workspace:^",
     "@storybook/addon-essentials": "^8.2.7",
