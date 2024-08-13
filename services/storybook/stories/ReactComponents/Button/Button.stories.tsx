@@ -2,7 +2,7 @@ import { Button as _Button } from "@gongmo/react-components-button";
 import "@gongmo/react-components-layout/style.css";
 
 export default {
-  title: "React Components/Layout/Box",
+  title: "React Components/Button",
   component: _Button,
   parameters: {
     layout: "centered",
@@ -10,6 +10,8 @@ export default {
   tags: ["autodocs"],
 };
 
-export const BoxStory = {
-  args: {},
+export const ButtonStory = {
+  args: {
+    children: "Button",
+  },
 };
