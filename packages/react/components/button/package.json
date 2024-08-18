@@ -21,22 +21,24 @@
   "devDependencies": {
     "@gongmo/esbuild-config": "workspace:^",
     "@gongmo/themes": "workspace:^",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vanilla-extract/css": "^1.15.3",
-    "@vanilla-extract/dynamic": "^2.1.1",
-    "@vanilla-extract/esbuild-plugin": "^2.3.8",
-    "@vanilla-extract/recipes": "^0.5.3",
-    "@vanilla-extract/sprinkles": "^1.6.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "^5.5.4"
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/dynamic": "^2.0.3",
+    "@vanilla-extract/esbuild-plugin": "^2.3.0",
+    "@vanilla-extract/recipes": "^0.5.0",
+    "@vanilla-extract/sprinkles": "^1.6.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "@gongmo/themes": "workspace:^",
     "react": "*"
   },
   "dependencies": {
-    "clsx": "^2.1.1"
+    "clsx": "^2.0.0"
   }
 }

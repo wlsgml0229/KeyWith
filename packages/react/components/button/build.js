@@ -7,6 +7,6 @@ const config = {
 };
 
 run({
-  config,
   pkg,
+  config,
 });
