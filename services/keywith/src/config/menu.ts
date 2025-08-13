@@ -23,7 +23,7 @@ export const menuConfig: MenuItem[] = [
   {
     id: 4,
     name: "청약가이드",
-    path: "/guide",
+    path: "/guide22",
   },
 ];
 
